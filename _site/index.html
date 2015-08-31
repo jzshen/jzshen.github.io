@@ -61,19 +61,19 @@
       <div class="wrapper">
             <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="/style.css">
-
+    <!--instagram feed
     <script type="text/javascript" src="instafeed.min.js"></script>
-<script type="text/javascript">
-    var userFeed = new Instafeed({
-        get: 'user',
-        userId: 41052566,
-        accessToken: '41052566.467ede5.d2efce78e2fd4019bab2032fca1317a1',
-        target: 'instafeed', 
-        useHttp: true,
-        template: '<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="photo-box"><div class="image-wrap"><img src="http:"/></div><div class="description"> </div></div></div>'
-    });
-    userFeed.run();
-</script>
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'user',
+            userId: 41052566,
+            accessToken: '41052566.467ede5.d2efce78e2fd4019bab2032fca1317a1',
+            useHttp: true,
+            template: '<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="photo-box"><div class="image-wrap"><img src="http:"/></div><div class="description"> </div></div></div>'
+        });
+        userFeed.run();
+    </script>
+-->
 
 <div class="home">
 
@@ -93,6 +93,14 @@
   <ul class="post-list">
     
       <li>
+        <span class="post-meta">Aug 30, 2015</span>
+
+        <h2>
+          <a class="post-link" href="/website/2015/08/30/touchdown-to-seattle.html">Touchdown to Seattle!</a>
+        </h2>
+      </li>
+    
+      <li>
         <span class="post-meta">Aug 26, 2015</span>
 
         <h2>
@@ -101,9 +109,6 @@
       </li>
     
   </ul>
-
-  <!-- Instafeed target div -->
-   <div id="instafeed"></div>
 
 <!--RSS SUBSCRIPTION
   <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
