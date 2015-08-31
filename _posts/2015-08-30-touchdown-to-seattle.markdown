@@ -16,11 +16,11 @@ What can I say, I'm still pumped! I landed at Seattle airport around 7pm the oth
 
 What a beauty! Now without the negative filter :P...
 
-![plane2](../../../../img/SAM_0908.jpg)
+![plane2](../../../../img/SAM_0908.JPG)
 
 and reaching the west coast :D...
 
-![plane3](../../../../img/SAM_0946.jpg)
+![plane3](../../../../img/SAM_0946.JPG)
 
 Amazing!
 
@@ -30,7 +30,7 @@ The taxi driver was very friendly, he told me was from an Ethiopian decent, so I
 
 When I got to apartment, I was actually pretty surprised about how spacious and nice it was. 
 
-![room](../../../../img/SAM_0968.jpg)
+![room](../../../../img/SAM_0968.JPG)
 
 I can get used to this... (and hopefully I contine making my bed haha)!
 
