@@ -1,0 +1,12 @@
+# Site settings
+title: Jennifer Shen
+email: jennifershen26@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+   "I'm not afraid of dying, I'm afraid of not trying." - Jay-Z
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jennifer_shen
+github_username:  jzshen
+
+# Build settings
+markdown: kramdown

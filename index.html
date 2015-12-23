@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+    <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="/style.css">
+    <!--instagram feed
+    <script type="text/javascript" src="instafeed.min.js"></script>
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'user',
+            userId: 41052566,
+            accessToken: '41052566.467ede5.d2efce78e2fd4019bab2032fca1317a1',
+            useHttp: true,
+            template: '<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><div class="photo-box"><div class="image-wrap"><img src="http:{{image}}"/></div><div class="description">{{caption}} </div></div></div>'
+        });
+        userFeed.run();
+    </script>
+-->
+
+<div class="home">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <p> Oh hey there! <br> Welcome to my personal website. Here you can find a link to my <a href="https://medium.com/@Jennifer_Shen">blog</a>, <a href ="https://www.youtube.com/channel/UCAS0eiruuvXXB0hU58MtA0A"> youtube channel </a>, and learn more about me.</p>
+                </div>
+            </div>
+        </div>
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+<!--RSS SUBSCRIPTION
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+-->
+</div>
+
+
+  
+
+
+
